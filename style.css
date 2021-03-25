@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+body{
+  height: 100vh;
+  background-image: url("https://images7.alphacoders.com/103/thumb-1920-1030536.jpg");
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+}
+
+.container{
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+h1{
+  text-align: center;
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.box:nth-child(2n){
+  background-color: whitesmoke;
+}
+.box:nth-child(1){
+  background-image: url('https://imgur.com/vX2hA0f.png');
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  transition: 1s;
+  filter: brightness(0)
+}
+
+.botoesResp{
+  justify-content: center;
+  display: flex;
+}
+
+.botoesResp button{
+  margin: 1%;
+  min-width: 120px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.box img{
+  width: 50%;
+}
